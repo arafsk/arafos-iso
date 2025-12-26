@@ -22,7 +22,7 @@
     "modules": [
         {
             "type": "kernel",
-            "key": " ALG",
+            "key": " ArafOS",
             "keyColor": "magenta"
         },
         {
