@@ -1,0 +1,25 @@
+#!/bin/bash
+echo "#################################"
+echo "Start arafos-before"
+echo "#################################"
+echo
+echo "#################################"
+echo "Populate Core Team keys"
+echo "#################################"
+echo
+pacman-key --init
+pacman-key --populate archlinux
+pacman-key --populate chaotic
+echo
+
+echo
+echo "#################################"
+echo "Changing into our own linux.preset"
+echo "#################################"
+mv -v /etc/mkinitcpio.d/arafos /etc/mkinitcpio.d/linux.preset
+rm -f /usr/local/bin/arafos-before
+echo
+echo "#################################"
+echo "End arafos-before"
+echo "#################################"
+echo

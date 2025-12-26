@@ -1,0 +1,4 @@
+QT_QPA_PLATFORMTHEME=qt5ct
+GTK_THEME=Qogir-Dark
+EDITOR=nano
+BROWSER=firefox
