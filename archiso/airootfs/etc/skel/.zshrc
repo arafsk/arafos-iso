@@ -95,8 +95,6 @@ alias updqte='sudo pacman -Syyu'
 alias src='pkgsearch'
 alias src2='searchpkg'
 alias treed='tree -CAFd'
-alias findd='sh $HOME/.bin/find'
-alias replaces='sh $HOME/.bin/replace'
 alias mountedinfo='df -hT'
 
 #enabling vmware services
