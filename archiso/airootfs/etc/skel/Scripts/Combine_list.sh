@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # === CONFIGURATION ===
-file1="/media/sk/TranscendSSD/00-distro-dump/GNOME-PKGLIST.txt"
-file2="/media/sk/HDD_Drive_1TB/01-Multi-de-postinstall/List_of_Distro/ArchLinux/Gnome/gnome_packages.txt"
-output="FINAL_gnome_packages.txt"
+file1="/home/arafsk/Desktop/pkglist.txt"
+file2="/home/arafsk/DATA/github/arafsk/arafos-iso/archiso/packages.x86_64"
+output="/home/arafsk/Desktop/FINAL_gnome_packages.txt"
 
 # === HELPER: normalize any file to sorted unique one-per-line ===
 normalize() {

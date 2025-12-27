@@ -4,7 +4,7 @@
 # Define Variables
 # ----------------------------------------
 
-MYUSERNM="Araf"
+MYUSERNM="araf"
 # use all lowercase letters only
 
 MYUSRPASSWD="1122"
@@ -205,7 +205,7 @@ cp "${WORKDIR}/build/iso/arch/pkglist.x86_64.txt" "${OUTDIR}/"
 
 rootuser
 handlerror
-prepreqs
+#prepreqs
 cleanup
 cpreleng
 addnmlinks
